@@ -1,8 +1,11 @@
 [package]
-name = "rusty-web-synth"
+name = "RustSynth"
 version = "0.1.0"
 authors = ["RaoulLuque <raoulsluque@gmail.com>"]
 edition = "2018"
+description = "A wavetable synthesizer for the web using Rust, WebAssembly and the WebAudio API"
+license = "MIT"
+repository = "https://github.com/RaoulLuque/RustSynth"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
