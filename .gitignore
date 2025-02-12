@@ -5,3 +5,6 @@ bin/
 pkg/
 wasm-pack.log
 /.idea
+/frontend/node_modules
+/frontend/dist
+/frontend/.yarn
