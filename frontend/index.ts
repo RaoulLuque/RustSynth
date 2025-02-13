@@ -3,7 +3,7 @@ import { generate_sine_wave_table, init } from '../pkg/rust_synth';
 async function run() {
     init();
 
-    const waveTable = generate_sine_wave_table(512);
+    const waveTable: Float32Array = generate_sine_wave_table(512);
 
     document.addEventListener('click', () => {
         const audioContext = new AudioContext();

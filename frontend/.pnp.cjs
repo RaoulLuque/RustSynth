@@ -31,6 +31,8 @@ const RAW_RUNTIME_STATE =
           ["copy-webpack-plugin", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:12.0.2"],\
           ["hello-wasm-pack", "npm:0.1.0"],\
           ["react-dev-utils", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:12.0.1"],\
+          ["ts-loader", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:9.5.2"],\
+          ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=8c6c40"],\
           ["webpack", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:5.97.1"],\
           ["webpack-cli", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:6.0.1"],\
           ["webpack-dev-server", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:5.2.0"]\
@@ -1502,6 +1504,8 @@ const RAW_RUNTIME_STATE =
           ["copy-webpack-plugin", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:12.0.2"],\
           ["hello-wasm-pack", "npm:0.1.0"],\
           ["react-dev-utils", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:12.0.1"],\
+          ["ts-loader", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:9.5.2"],\
+          ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=8c6c40"],\
           ["webpack", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:5.97.1"],\
           ["webpack-cli", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:6.0.1"],\
           ["webpack-dev-server", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:5.2.0"]\
@@ -2195,7 +2199,7 @@ const RAW_RUNTIME_STATE =
           ["schema-utils", "npm:2.7.0"],\
           ["semver", "npm:7.7.1"],\
           ["tapable", "npm:1.1.3"],\
-          ["typescript", null],\
+          ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=8c6c40"],\
           ["vue-template-compiler", null],\
           ["webpack", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:5.97.1"]\
         ],\
@@ -3952,7 +3956,7 @@ const RAW_RUNTIME_STATE =
           ["shell-quote", "npm:1.8.2"],\
           ["strip-ansi", "npm:6.0.1"],\
           ["text-table", "npm:0.2.0"],\
-          ["typescript", null],\
+          ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=8c6c40"],\
           ["webpack", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:5.97.1"]\
         ],\
         "packagePeers": [\
@@ -4478,6 +4482,13 @@ const RAW_RUNTIME_STATE =
           ["source-map", "npm:0.6.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:0.7.4", {\
+        "packageLocation": "../../../../../snap/code/182/.local/share/yarn/berry/cache/source-map-npm-0.7.4-bc8d018ab6-10c0.zip/node_modules/source-map/",\
+        "packageDependencies": [\
+          ["source-map", "npm:0.7.4"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["source-map-support", [\
@@ -4804,6 +4815,37 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["ts-loader", [\
+      ["npm:9.5.2", {\
+        "packageLocation": "../../../../../snap/code/182/.local/share/yarn/berry/cache/ts-loader-npm-9.5.2-15fe2fd8a6-10c0.zip/node_modules/ts-loader/",\
+        "packageDependencies": [\
+          ["ts-loader", "npm:9.5.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:9.5.2", {\
+        "packageLocation": "./.yarn/__virtual__/ts-loader-virtual-3dcee6b086/6/snap/code/182/.local/share/yarn/berry/cache/ts-loader-npm-9.5.2-15fe2fd8a6-10c0.zip/node_modules/ts-loader/",\
+        "packageDependencies": [\
+          ["ts-loader", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:9.5.2"],\
+          ["@types/typescript", null],\
+          ["@types/webpack", null],\
+          ["chalk", "npm:4.1.2"],\
+          ["enhanced-resolve", "npm:5.18.1"],\
+          ["micromatch", "npm:4.0.8"],\
+          ["semver", "npm:7.7.1"],\
+          ["source-map", "npm:0.7.4"],\
+          ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=8c6c40"],\
+          ["webpack", "virtual:55891084325118e33c2ae8f93bdd78875751b97085fe57be64384911eb1c583c21958929daeb3a7dcc0aef109817bd859db7d14847805f4a45d0ab37c644a0b8#npm:5.97.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/typescript",\
+          "@types/webpack",\
+          "typescript",\
+          "webpack"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["tslib", [\
       ["npm:2.8.1", {\
         "packageLocation": "../../../../../snap/code/182/.local/share/yarn/berry/cache/tslib-npm-2.8.1-66590b21b8-10c0.zip/node_modules/tslib/",\
@@ -4820,6 +4862,15 @@ const RAW_RUNTIME_STATE =
           ["type-is", "npm:1.6.18"],\
           ["media-typer", "npm:0.3.0"],\
           ["mime-types", "npm:2.1.35"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["typescript", [\
+      ["patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=8c6c40", {\
+        "packageLocation": "../../../../../snap/code/182/.local/share/yarn/berry/cache/typescript-patch-d15822a933-10c0.zip/node_modules/typescript/",\
+        "packageDependencies": [\
+          ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=8c6c40"]\
         ],\
         "linkType": "HARD"\
       }]\

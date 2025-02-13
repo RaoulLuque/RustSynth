@@ -2,12 +2,15 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const path = require('path');
 
 module.exports = {
-  entry: "./bootstrap.js",
+  entry: "./bootstrap.ts",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bootstrap.js",
   },
   mode: "development",
+  resolve: {
+    extensions: ['.ts', '.js'],
+  },
   plugins: [
     new CopyWebpackPlugin({
       patterns: [
@@ -24,6 +27,11 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        test: /\.ts$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
       {
         test: /\.wasm$/,
         type: "webassembly/async"
