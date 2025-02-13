@@ -1,5 +1,5 @@
 [package]
-name = "RustSynth"
+name = "rust_synth"
 version = "0.1.0"
 authors = ["RaoulLuque <raoulsluque@gmail.com>"]
 edition = "2018"
