@@ -1,4 +1,4 @@
-import { generate_sine_wave_table, init } from '../pkg/RustSynth';
+import { generate_sine_wave_table, init } from '../pkg/rust_synth';
 
 async function run() {
     init();

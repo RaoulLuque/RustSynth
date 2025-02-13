@@ -3,7 +3,7 @@ name = "rust_synth"
 version = "0.1.0"
 authors = ["RaoulLuque <raoulsluque@gmail.com>"]
 edition = "2018"
-description = "A wavetable synthesizer for the web using Rust, WebAssembly and the WebAudio API"
+description = "A synthesizer for the web using Rust, WebAssembly and the WebAudio API"
 license = "MIT"
 repository = "https://github.com/RaoulLuque/RustSynth"
 
