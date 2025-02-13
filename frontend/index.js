@@ -1,6 +1,8 @@
-import { generate_sine_wave_table } from '../pkg/RustSynth';
+import { generate_sine_wave_table, init } from '../pkg/RustSynth';
 
 async function run() {
+    init();
+
     const waveTable = generate_sine_wave_table(512);
 
     document.addEventListener('click', () => {

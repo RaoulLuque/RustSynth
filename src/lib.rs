@@ -3,6 +3,11 @@ mod utils;
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
+pub fn init() {
+    utils::set_panic_hook();
+}
+
+#[wasm_bindgen]
 extern "C" {
     fn alert(s: &str);
 }
