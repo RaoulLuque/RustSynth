@@ -7,4 +7,11 @@ wasm-pack.log
 /.idea
 /frontend/node_modules
 /frontend/dist
-/frontend/.yarn
+
+/frontend/.pnp.*
+/frontend/.yarn/*
+/frontend/!.yarn/patches
+/frontend/!.yarn/plugins
+/frontend/!.yarn/releases
+/frontend/!.yarn/sdks
+/frontend/!.yarn/versions
