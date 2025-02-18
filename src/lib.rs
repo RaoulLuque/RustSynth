@@ -1,4 +1,5 @@
 mod utils;
+mod oscillator;
 
 use wasm_bindgen::prelude::*;
 
